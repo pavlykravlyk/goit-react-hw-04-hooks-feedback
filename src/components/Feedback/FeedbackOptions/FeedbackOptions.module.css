@@ -1,0 +1,65 @@
+/* .Title {
+  font-size: 28px;
+  font-weight: 700;
+} */
+
+.List {
+  list-style: none;
+  margin-top: 15px;
+  margin-bottom: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.Item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.Btn {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  min-width: 100px;
+  min-height: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+  text-transform: capitalize;
+}
+
+.Btn:hover,
+.Btn:focus {
+  color: white;
+  background-color: gray;
+}
+
+/* .Good {
+  composes: Button;
+  background-color: green;
+}
+
+.Good:hover,
+.Good:focus {
+  background-color: darkgreen;
+}
+
+.Neutral {
+  composes: Button;
+  background-color: gray;
+}
+
+.Neutral:hover,
+.Neutral:focus {
+  background-color: darkgrey;
+}
+
+.Bad {
+  composes: Button;
+  background-color: red;
+}
+
+.Bad:hover,
+.Bad:focus {
+  background-color: darkred;
+} */
